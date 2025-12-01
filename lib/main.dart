@@ -25,7 +25,7 @@ class IoTDeviceDashboard extends StatefulWidget {
 class _IoTDeviceDashboardState extends State<IoTDeviceDashboard> {
   //final _baseUrl = 'http://192.168.11.41:8080';
   // dien thoai
-  final _baseUrl = 'http://172.20.10.12:8080';
+  final _baseUrl = 'http://172.20.10.4:8080';
   List<Device> _devices = [];
   final _deviceNameController = TextEditingController();
   final _deviceTopicController = TextEditingController();
